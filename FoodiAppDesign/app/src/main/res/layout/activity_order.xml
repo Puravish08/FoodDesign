@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/baseline_chevron_left_24"
+            android:layout_marginTop="@dimen/_8sdp"
+
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My order"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:textSize="@dimen/_22ssp"
+            android:layout_marginLeft="@dimen/_80sdp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:textSize="@dimen/_18ssp"
+        android:layout_marginTop="@dimen/_32sdp"
+        />
+
+
+    <ImageView
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/orderburager"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_8sdp"/>
+
+    <ImageView
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/addmoreitem"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/informationspacific" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="185dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_2ssp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:src="@drawable/spoon" />
+
+
+        <ToggleButton
+            android:id="@+id/ToggleButton1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="2"
+            android:background="@drawable/toogle_bg"
+            android:text="ToggleButton"
+            android:textOff=""
+            android:textOn="" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help us reduce plastic waste-ask for cutley only when you needit."
+        android:textSize="@dimen/_12sdp"
+        android:layout_margin="@dimen/_5sdp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Most Ordered Items"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:textSize="@dimen/_18ssp"
+        android:layout_marginTop="@dimen/_32sdp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/cola"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coca-Cola 0.5l"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_22ssp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/francefrice"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coca-Cola 0.5l"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/_22ssp"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/espresso"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coca-Cola 0.5l"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+
+
+
+        </LinearLayout>
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:src="@drawable/baseline_circle_24"
+            android:layout_marginTop="@dimen/_22ssp"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+        <ImageView
+            android:layout_width="@dimen/_10sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:src="@drawable/baseline_circle_empty"
+            android:layout_marginTop="@dimen/_22ssp"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:id="@+id/btnorder"
+            android:background="@drawable/bg_round"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginLeft="@dimen/_180sdp"/>
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>

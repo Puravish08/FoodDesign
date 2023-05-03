@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Information2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:id="@+id/skip2"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/_18sdp"
+        android:textColor="#454D95"
+        android:textSize="@dimen/_18sdp"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:layout_gravity="center"
+        android:src="@drawable/informationp3"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="All your Favorites"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginLeft="@dimen/_18sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order from the best local restaurants with easy ,on-demand delivery."
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/_8sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_circle_empty"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_8sdp"/>
+
+
+        <ImageView
+            android:layout_width="@dimen/_8sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_circle_24"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_8sdp"/>
+
+
+        <ImageView
+            android:layout_width="@dimen/_8sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_circle_empty"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_8sdp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/btnnext2"
+            android:background="@drawable/bg_round"
+            android:layout_marginLeft="@dimen/_180sdp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ThankYouActivity">
+
+
+    <ImageView
+        android:layout_width="387dp"
+        android:layout_height="288dp"
+        android:layout_gravity="center"
+        android:src="@drawable/thankyou" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You For Your Order!"
+        android:textStyle="bold"
+        android:textSize="@dimen/_22ssp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your order has processed."
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_15ssp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track My Order"
+        android:id="@+id/myorder"
+        android:textSize="@dimen/_15sdp"
+        android:background="@drawable/bg_round"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_margin="@dimen/_20sdp"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mainpage"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/bg_border_rpond"
+        android:text="To The Main Page"
+        android:textSize="@dimen/_15sdp" />
+
+
+
+
+
+
+</LinearLayout>
